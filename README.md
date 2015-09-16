@@ -9,27 +9,27 @@ or download and include href to bootstrap-progressbar.js in your html code after
 ###Intiating
  var progressBar = $("#progress").bootstrapProgressBar();
 
- ##Control Progress
+###Control Progress
  progressBar.setProgress(0);
  progressBar.setProgress(50);
  progressBar.setProgress(80);
 
- ###Show Progressbar
+###Show Progressbar
 progressBar.show();
 
- ###Hide Progressbar
+###Hide Progressbar
  progressBar.hide();
 
- ###Set Success
+###Set Success
  progressBar.setSuccess();
  // This will show the success with progressbar animated to green color and marks complete (100%) and hides
 
 
 
- ###Set Failure
+###Set Failure
  progressBar.setFailure();
  // This will show the failure with progressbar animated to red color and marks complete (100%) and hides
 
 
- ##Updates Expected
+###Updates Expected
  Provision to show error/success messages on bootstrap modals / inline in next version
